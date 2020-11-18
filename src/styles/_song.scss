@@ -10,11 +10,35 @@
     border-radius: 50%;
   }
 
+  .flip-animation {
+    animation: flip 10s infinite linear;
+  }
+
+  .flip-back {
+    animation: flip 10s infinite linear, flip-back 1s linear forwards;
+    animation-play-state: paused, running;
+  }
+
   h2 {
     padding: 3rem 1rem 1rem 1rem;
   }
 
   h3 {
     font-size: 1rem;
+  }
+}
+
+@keyframes flip {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes flip-back {
+  to {
+    transform: rotateZ(0deg);
   }
 }
