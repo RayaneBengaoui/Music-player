@@ -8,6 +8,7 @@
   img {
     width: 20%;
     border-radius: 50%;
+    transition: all 2s ease;
   }
 
   .flip-animation {
@@ -40,5 +41,13 @@
 @keyframes flip-back {
   to {
     transform: rotate(0deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .song-container {
+    img {
+      width: 60%;
+    }
   }
 }
