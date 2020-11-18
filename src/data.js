@@ -71,6 +71,26 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "New Day",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/4b06cedf68f3f842d3a0fc13ae62564dec6056c8-1024x1024.jpg",
+      artist: "Philanthrope, Moods, The Field Tapes",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=8132",
+      color: ["#7A93B6", "#F89F9C"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Backyard Puddles",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/09/c209a7df7b9bc133dfff73ce86ebc3c57c2b73dd-1024x1024.jpg",
+      artist: "Sleepy Fish",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10032",
+      color: ["#23213D", "#FFEED4"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
