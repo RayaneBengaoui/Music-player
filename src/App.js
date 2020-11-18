@@ -2,8 +2,8 @@ import { useState, useRef } from "react";
 //Import Styles
 import "./styles/app.scss";
 
-//Import Util
-import data from "./util";
+//Import data
+import data from "./data";
 
 //Adding components
 import Player from "./components/Player";
